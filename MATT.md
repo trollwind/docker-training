@@ -21,7 +21,6 @@ git init
 git add .
 git commit -m "initial commit"
 
-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
 
 ## docker compose
 docker-compose -f docker-compose-dev.yml up
