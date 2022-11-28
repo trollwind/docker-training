@@ -5,6 +5,7 @@
 
 # docker build -t trollwind/frontend:latest -f Dockerfile.dev .
 # docker run -it trollwind/frontend npm run test
+# docker run trollwind/frontend npm run test -- --coverage
 
 # for prod build:
 # docker build .
@@ -13,3 +14,19 @@
 run dev
 run test
 run build
+
+## GIT Setup
+https://github.com/trollwind/docker-training.git
+git init
+git add .
+git commit -m "initial commit"
+
+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
+
+## docker compose
+docker-compose -f docker-compose-dev.yml up
+docker-compose -f docker-compose-dev.yml up --build
+docker-compose -f docker-compose-dev.yml down
+
+## AWS
+secret access: v37jRUERPD+WD6f33L5zWs7qzidUaoWEqQhKzOh/
